@@ -25,6 +25,24 @@ npm install
 npm run build
 ```
 
+### Setup google api
+
+``` bash
+cd api/functions 
+python google_calendar_test_setup.py
+```
+
+- login with the google account in Notion, recommend copy the link and open in incogito
+- accept everything unsafe
+
+### Install SimpleWebpageReader
+
+``` bash
+pip install llama-index-readers-web
+```
+
+poetry does not allow as version conflict, not significantly, but i do not care, please install for demo purpose
+
 ### Create the agent
 
 ```bash
